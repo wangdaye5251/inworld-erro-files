@@ -1,94 +1,138 @@
 
-
-
-
-
-
-
-
-
-
-
-
-error [Mon Mar 20 2023 17:53:52 GMT+0800 (中国标准时间)]  [Arguments] {
+error [Sun Mar 26 2023 15:49:54 GMT+0800 (中国标准时间)]  [Arguments] {
   '0': TypeError: Cannot read properties of undefined (reading 'commonKnowledges')
-      at InworldClientManager.GetTypeKnowledge (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/wr0hjqnuuy/0/Inworld/InworldManager.js:324:51)
-      at InworldClientManager.UpdateCommonKnowledge (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/wr0hjqnuuy/0/Inworld/InworldManager.js:248:40)
-      at Object.<anonymous> (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/wr0hjqnuuy/0/Client.js:92:32)
-      at preHandlerCallback (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\handleRequest.js:128:37)
-      at preValidationCallback (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\handleRequest.js:112:5)
-      at handler (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\handleRequest.js:76:7)
-      at C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\contentTypeParser.js:189:9
+      at InworldClientManager.GetTypeKnowledge (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/qfbk0wkuaj/1/Inworld/InworldManager.js:448:51)
+      at InworldClientManager.UpdateCommonKnowledge (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/qfbk0wkuaj/1/Inworld/InworldManager.js:372:40)
+      at Object.<anonymous> (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/qfbk0wkuaj/1/Client.js:100:32)
+      at preHandlerCallback (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\fastify\lib\handleRequest.js:128:37)
+      at preValidationCallback (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\fastify\lib\handleRequest.js:112:5)
+      at handler (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\fastify\lib\handleRequest.js:76:7)
+      at C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\fastify\lib\contentTypeParser.js:189:9
       at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
-      at done (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\contentTypeParser.js:183:14)
-      at Parser.defaultJsonParser [as fn] (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\contentTypeParser.js:289:5)
+      at done (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\fastify\lib\contentTypeParser.js:183:14)
+      at Parser.defaultJsonParser [as fn] (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\fastify\lib\contentTypeParser.js:289:5)
 }
 
-error [Mon Mar 20 2023 17:57:33 GMT+0800 (中国标准时间)]  [Arguments] {
-  '0': TypeError: Cannot read properties of undefined (reading 'commonKnowledges')
-      at InworldClientManager.GetTypeKnowledge (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/wr0hjqnuuy/0/Inworld/InworldManager.js:324:51)
-      at InworldClientManager.UpdateCommonKnowledge (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/wr0hjqnuuy/0/Inworld/InworldManager.js:248:40)
-      at Object.<anonymous> (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/wr0hjqnuuy/0/Client.js:92:32)
-      at preHandlerCallback (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\handleRequest.js:128:37)
-      at preValidationCallback (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\handleRequest.js:112:5)
-      at handler (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\handleRequest.js:76:7)
-      at C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\contentTypeParser.js:189:9
-      at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
-      at done (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\contentTypeParser.js:183:14)
-      at Parser.defaultJsonParser [as fn] (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\contentTypeParser.js:289:5)
+error [Sun Mar 26 2023 15:50:31 GMT+0800 (中国标准时间)]  [Arguments] {
+  '0': Error: 3 INVALID_ARGUMENT: Scene resource name is invalid or its configuration can not be found.
+      at callErrorFromStatus (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\call.js:31:19)
+      at Object.onReceiveStatus (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\client.js:192:76)
+      at Object.onReceiveStatus (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:360:141)
+      at Object.onReceiveStatus (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:323:181)
+      at C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\resolving-call.js:94:78
+      at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+  for call at
+      at ServiceClientImpl.makeUnaryRequest (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\client.js:160:34)
+      at ServiceClientImpl.loadScene (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\make-client.js:105:19)
+      at node:internal/util:364:7
+      at new Promise (<anonymous>)
+      at bound  (node:internal/util:350:12)
+      at WorldEngineClientGrpcService.<anonymous> (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@inworld\nodejs-sdk\build\src\services\gprc\world_engine_client_grpc.service.js:38:82)
+      at Generator.next (<anonymous>)
+      at C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@inworld\nodejs-sdk\build\src\services\gprc\world_engine_client_grpc.service.js:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@inworld\nodejs-sdk\build\src\services\gprc\world_engine_client_grpc.service.js:4:12) {
+    code: 3,
+    details: 'Scene resource name is invalid or its configuration can not be found.',
+    metadata: Metadata {
+      internalRepr: Map(6) {
+        'content-type' => [ 'application/grpc' ],
+        'sentry-trace' => [ 'e3567ab54f38ba45a2c4008a5da00144-dbd2c0ba6b5d42a2-0' ],
+        'content-length' => [ '0' ],
+        'date' => [ 'Sun, 26 Mar 2023 07:50:31 GMT' ],
+        'via' => [ '1.1 google' ],
+        'alt-svc' => [ 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000' ]
+      },
+      options: {}
+    },
+    progress: 'PROCESSED'
+  }
 }
 
-
-
-
-
-error [Mon Mar 20 2023 19:50:55 GMT+0800 (中国标准时间)]  [Arguments] {
-  '0': TypeError: Cannot read properties of undefined (reading 'commonKnowledges')
-      at InworldClientManager.GetTypeKnowledge (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/wr0hjqnuuy/0/Inworld/InworldManager.js:324:51)
-      at InworldClientManager.UpdateCommonKnowledge (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/wr0hjqnuuy/0/Inworld/InworldManager.js:248:40)
-      at Object.<anonymous> (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/wr0hjqnuuy/0/Client.js:92:32)
-      at preHandlerCallback (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\handleRequest.js:128:37)
-      at preValidationCallback (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\handleRequest.js:112:5)
-      at handler (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\handleRequest.js:76:7)
-      at C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\contentTypeParser.js:189:9
-      at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
-      at done (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\contentTypeParser.js:183:14)
-      at Parser.defaultJsonParser [as fn] (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\contentTypeParser.js:289:5)
-}
-
-
-
-
-
-
-error [Mon Mar 20 2023 20:21:16 GMT+0800 (中国标准时间)]  [Arguments] {
-  '0': Error: listen EADDRINUSE: address already in use 127.0.0.1:3000
-      at Server.setupListenHandle [as _listen2] (node:net:1485:16)
-      at listenInCluster (node:net:1533:12)
-      at GetAddrInfoReqWrap.doListen [as callback] (node:net:1682:7)
-      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:8) {
-    code: 'EADDRINUSE',
-    errno: -4091,
-    syscall: 'listen',
-    address: '127.0.0.1',
-    port: 3000
+error [Sun Mar 26 2023 15:51:06 GMT+0800 (中国标准时间)]  [Arguments] {
+  '0': Error: 3 INVALID_ARGUMENT: Scene resource name is invalid or its configuration can not be found.
+      at callErrorFromStatus (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\call.js:31:19)
+      at Object.onReceiveStatus (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\client.js:192:76)
+      at Object.onReceiveStatus (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:360:141)
+      at Object.onReceiveStatus (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:323:181)
+      at C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\resolving-call.js:94:78
+      at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+  for call at
+      at ServiceClientImpl.makeUnaryRequest (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\client.js:160:34)
+      at ServiceClientImpl.loadScene (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\make-client.js:105:19)
+      at node:internal/util:364:7
+      at new Promise (<anonymous>)
+      at bound  (node:internal/util:350:12)
+      at WorldEngineClientGrpcService.<anonymous> (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@inworld\nodejs-sdk\build\src\services\gprc\world_engine_client_grpc.service.js:38:82)
+      at Generator.next (<anonymous>)
+      at C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@inworld\nodejs-sdk\build\src\services\gprc\world_engine_client_grpc.service.js:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@inworld\nodejs-sdk\build\src\services\gprc\world_engine_client_grpc.service.js:4:12) {
+    code: 3,
+    details: 'Scene resource name is invalid or its configuration can not be found.',
+    metadata: Metadata {
+      internalRepr: Map(6) {
+        'content-type' => [ 'application/grpc' ],
+        'sentry-trace' => [ 'ebc8a6391b853e6185b5de529a2e5889-18376be3fdf44b49-0' ],
+        'content-length' => [ '0' ],
+        'date' => [ 'Sun, 26 Mar 2023 07:51:06 GMT' ],
+        'via' => [ '1.1 google' ],
+        'alt-svc' => [ 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000' ]
+      },
+      options: {}
+    },
+    progress: 'PROCESSED'
   }
 }
 
 
 
-
-
-error [Tue Mar 21 2023 11:55:28 GMT+0800 (中国标准时间)]  [Arguments] {
+error [Sun Mar 26 2023 15:56:54 GMT+0800 (中国标准时间)]  [Arguments] {
   '0': TypeError: Cannot read properties of undefined (reading 'commonKnowledges')
-      at InworldClientManager.GetTypeKnowledge (file:///C:/Users/13845/AppData/Local/Temp/caxa/applications/InworldClient/wr0hjqnuuy/0/Inworld/InworldManager.js:324:51)
-      at InworldClientManager.UpdateCommonKnowledge (file:///C:/Users/13845/AppData/Local/Temp/caxa/applications/InworldClient/wr0hjqnuuy/0/Inworld/InworldManager.js:248:40)
-      at Object.<anonymous> (file:///C:/Users/13845/AppData/Local/Temp/caxa/applications/InworldClient/wr0hjqnuuy/0/Client.js:92:32)
-      at preHandlerCallback (C:\Users\13845\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\handleRequest.js:128:37)
-      at preValidationCallback (C:\Users\13845\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\handleRequest.js:112:5)
-      at handler (C:\Users\13845\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\handleRequest.js:76:7)
-      at C:\Users\13845\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\contentTypeParser.js:189:9
+      at InworldClientManager.GetTypeKnowledge (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/qfbk0wkuaj/1/Inworld/InworldManager.js:448:51)
+      at InworldClientManager.UpdateCommonKnowledge (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/qfbk0wkuaj/1/Inworld/InworldManager.js:372:40)
+      at Object.<anonymous> (file:///C:/Users/%E7%8E%8B%E5%A4%A7%E7%88%B7/AppData/Local/Temp/caxa/applications/InworldClient/qfbk0wkuaj/1/Client.js:100:32)
+      at preHandlerCallback (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\fastify\lib\handleRequest.js:128:37)
+      at preValidationCallback (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\fastify\lib\handleRequest.js:112:5)
+      at handler (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\fastify\lib\handleRequest.js:76:7)
+      at C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\fastify\lib\contentTypeParser.js:189:9
       at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
-      at done (C:\Users\13845\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\contentTypeParser.js:183:14)
-      at Parser.defaultJsonParser [as fn] (C:\Users\13845\AppData\Local\Temp\caxa\applications\InworldClient\wr0hjqnuuy\0\node_modules\fastify\lib\contentTypeParser.js:289:5)
+      at done (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\fastify\lib\contentTypeParser.js:183:14)
+      at Parser.defaultJsonParser [as fn] (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\fastify\lib\contentTypeParser.js:289:5)
+}
+
+error [Sun Mar 26 2023 15:57:25 GMT+0800 (中国标准时间)]  [Arguments] {
+  '0': Error: 3 INVALID_ARGUMENT: Scene resource name is invalid or its configuration can not be found.
+      at callErrorFromStatus (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\call.js:31:19)
+      at Object.onReceiveStatus (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\client.js:192:76)
+      at Object.onReceiveStatus (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:360:141)
+      at Object.onReceiveStatus (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:323:181)
+      at C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\resolving-call.js:94:78
+      at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+  for call at
+      at ServiceClientImpl.makeUnaryRequest (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\client.js:160:34)
+      at ServiceClientImpl.loadScene (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@grpc\grpc-js\build\src\make-client.js:105:19)
+      at node:internal/util:364:7
+      at new Promise (<anonymous>)
+      at bound  (node:internal/util:350:12)
+      at WorldEngineClientGrpcService.<anonymous> (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@inworld\nodejs-sdk\build\src\services\gprc\world_engine_client_grpc.service.js:38:82)
+      at Generator.next (<anonymous>)
+      at C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@inworld\nodejs-sdk\build\src\services\gprc\world_engine_client_grpc.service.js:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (C:\Users\王大爷\AppData\Local\Temp\caxa\applications\InworldClient\qfbk0wkuaj\1\node_modules\@inworld\nodejs-sdk\build\src\services\gprc\world_engine_client_grpc.service.js:4:12) {
+    code: 3,
+    details: 'Scene resource name is invalid or its configuration can not be found.',
+    metadata: Metadata {
+      internalRepr: Map(6) {
+        'content-type' => [ 'application/grpc' ],
+        'sentry-trace' => [ 'f652cd0a7159c667a1c65a4ab30cbf1d-65168da0c29e424f-0' ],
+        'content-length' => [ '0' ],
+        'date' => [ 'Sun, 26 Mar 2023 07:57:25 GMT' ],
+        'via' => [ '1.1 google' ],
+        'alt-svc' => [ 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000' ]
+      },
+      options: {}
+    },
+    progress: 'PROCESSED'
+  }
 }
